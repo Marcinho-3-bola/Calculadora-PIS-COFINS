@@ -2,7 +2,7 @@
 
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-blue?style=flat-square)](https://developer.chrome.com/docs/extensions/mv3/intro/)
 [![Versão](https://img.shields.io/badge/Versão-1.0.0-green?style=flat-square)]()
-[![Licença](https://img.shields.io/badge/Licença-GNU-3.0-yellow?style=flat-square)](LICENSE)
+[![Licença](https://img.shields.io/badge/Licença-GNU-yellow?style=flat-square)](LICENSE)
 [![100% Offline](https://img.shields.io/badge/Offline-100%25-brightgreen?style=flat-square)]()
 
 Extensão para Google Chrome que calcula **PIS** e **COFINS** nos regimes de **Lucro Presumido** e **Lucro Real** de forma rápida, sem sair da página.
