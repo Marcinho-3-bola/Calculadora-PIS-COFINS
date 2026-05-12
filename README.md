@@ -5,7 +5,7 @@
 [![Licença](https://img.shields.io/badge/Licença-GNU-yellow?style=flat-square)](LICENSE)
 [![100% Offline](https://img.shields.io/badge/Offline-100%25-brightgreen?style=flat-square)]()
 
-Extensão para Google Chrome que calcula **PIS** e **COFINS** nos regimes de **Lucro Presumido** e **Lucro Real** de forma rápida, sem sair da página.
+Extensão para Chrome Web Store que calcula **PIS** e **COFINS** nos regimes de **Lucro Presumido** e **Lucro Real** de forma rápida, sem sair da página.
 
 ---
 
@@ -30,21 +30,18 @@ Extensão para Google Chrome que calcula **PIS** e **COFINS** nos regimes de **L
 
 ---
 
-## 🚀 Instalação local (desenvolvimento)
+## 🚀 Instalação
 
-```bash
-# 1. Clone o repositório
-git clone https://github.com/seu-usuario/calculadora-pis-cofins.git
+### Via Chrome Web Store
+Disponível em breve na [Chrome Web Store](#).
 
-# 2. Abra o Chrome e acesse
-chrome://extensions
+### Manualmente (modo desenvolvedor)
+1. Baixe o [release](https://github.com/Marcinho-3-bola/Calculadora-PIS-COFINS/releases) mais recente.
+2. Acesse `chrome://extensions` no Navegador.
+3. Ative o **Modo do desenvolvedor** (canto superior direito).
+4. Clique em **"Carregar sem compactação"**.
+5. Selecione a pasta `cnae-extension`.
 
-# 3. Ative o "Modo do desenvolvedor" (toggle superior direito)
-
-# 4. Clique em "Carregar sem compactação"
-
-# 5. Selecione a pasta do repositório
-```
 
 O ícone da extensão aparecerá na barra de ferramentas do Chrome.
 
@@ -69,14 +66,6 @@ calculadora-pis-cofins/
 
 ---
 
-## 🔒 Privacidade e permissões
-
-A extensão solicita apenas **uma permissão**:
-
-| Permissão | Motivo |
-|-----------|--------|
-| `storage` | Salvar o histórico de cálculos localmente no navegador |
-
 Nenhum dado pessoal é coletado, armazenado remotamente ou transmitido. Consulte o arquivo [PRIVACY.md](PRIVACY.md) para mais detalhes.
 
 ---
@@ -90,23 +79,9 @@ Nenhum dado pessoal é coletado, armazenado remotamente ou transmitido. Consulte
 
 ---
 
-## 📦 Publicar na Chrome Web Store
-
-1. Gere o arquivo ZIP com o conteúdo da pasta raiz:
-   ```bash
-   zip -r pis-cofins-extension.zip manifest.json popup.html popup.css popup.js icons/
-   ```
-2. Acesse o [Chrome Developer Dashboard](https://chrome.google.com/webstore/devconsole)
-3. Pague a taxa única de desenvolvedor: **US$ 5,00**
-4. Clique em **Novo item** e faça upload do `.zip`
-5. Preencha os metadados, adicione as capturas de tela e envie para revisão
-6. Aprovação leva entre **1 a 3 dias úteis**
-
----
-
 ## 📄 Licença
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
+Este projeto está licenciado sob a [GNU General Public License v3.0](LICENSE).
 
 ---
 
