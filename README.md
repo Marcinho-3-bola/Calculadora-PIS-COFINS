@@ -33,7 +33,7 @@ Extensão para Chrome Web Store que calcula **PIS** e **COFINS** nos regimes de 
 ## 🚀 Instalação
 
 ### Via Chrome Web Store
-Disponível em breve na [Chrome Web Store](#).
+Disponível na [Chrome Web Store](https://chromewebstore.google.com/detail/calculadora-pis-cofins/hckidamilnaomccjjkbjchmbhhjmgiml).
 
 ### Manualmente (modo desenvolvedor)
 1. Baixe o [release](https://github.com/Marcinho-3-bola/Calculadora-PIS-COFINS/releases) mais recente.
